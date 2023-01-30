@@ -157,9 +157,47 @@ section.quote .container {
 }
 
 .quote .container h3 {
+    margin-top: 1rem;
     text-align: end;
     font-size: 1.25rem;
 }
+
+/* Sign up */
+
+section.sign-up .card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: var(--main-white);
+}
+
+.sign-up .card .text p {
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+.sign-up .card button {
+    color: inherit;
+    background-color: transparent;
+    padding: .5rem;
+    width: 7rem;
+    border: 1px solid var(--main-white);
+    border-radius: 7px;
+    font-weight: 700;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.sign-up .card button:hover {
+    filter: brightness(90%);
+}
+
+/* Footer */
 
 footer {
     text-align: center;
